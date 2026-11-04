@@ -39,6 +39,7 @@
 #include <errno.h>
 #include <pthread.h>
 #include <ctype.h>
+#include <sys/sysmacros.h>
 
 #include <linux/usbdevice_fs.h>
 #include <linux/usbdevice_fs.h>
