@@ -7,10 +7,10 @@ Lock vivo bootloader   :  fastboot bbk lock_vivo
 
 Unlock vivo bootloader :  fastboot bbk unlock_vivo
 
+# How to compile
+
 This binary can be compiled using any toolchain (on linux only) or using the official method by downloading whole AOSP source.
 If you want to compile for windows, you probably have to use the whole AOSP source.
-
-# How to compile
 
 ## Details
 Suggested toolchain : https://web.archive.org/web/20200718202000/http://downloads.yoctoproject.org/releases/yocto/yocto-1.5/toolchain/
@@ -57,15 +57,20 @@ make TOOLCHAIN= CFLAGS='-std=gnu99'
 # Known issues
 ## Phones *NOT* working
 
-vivo V21 5G (V2050)
-vivo Y91c
-vivo U10
-vivo Y20s
-vivo Y15 (2019)
-vivo Y51L
-vivo X20
-vivo Y81i (Model 1812)
-vivo Y81
-vivo Z3
-vivo X9
-vivo iQOO 855 neo
+* vivo V21 5G (V2050)
+* vivo Y91c
+* vivo U10
+* vivo Y20s
+* vivo Y15 (2019)
+* vivo Y51L
+* vivo X20
+* vivo Y81i (Model 1812)
+* vivo Y81
+* vivo Z3
+* vivo X9
+* vivo iQOO 855 neo
+
+## Might work
+
+* vivo Y13L https://github.com/shmilee/vivo-Y13L
+* List of supported phones https://github.com/Linux-On-QcomPhone/bbk_vivo_unlock/blob/main/README.en.md
